@@ -1,0 +1,8 @@
+.nav-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.active-link {
+	background: linear-gradient(to right, #2c4371, #2c4372, #2c4372, #2c4373, #2c4373, #334978, #3a4f7e, #415583, #50638f, #5f719b, #6e80a7, #7e8fb3);
+	color: white !important;
+}

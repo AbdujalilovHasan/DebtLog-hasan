@@ -1,0 +1,89 @@
+.home {
+	margin-top: 10px;
+	padding: 18px 23px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0px 5px 27px -15px rgba(0, 0, 0, 0.75);
+	border-radius: 10px;
+}
+
+.login-img button img {
+	width: 44px;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+
+.login-img button {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.login-img button:hover img {
+	box-shadow: 0px 0px 27px -7px #575757;
+	transition: 0.5s;
+}
+
+.title {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.stats-section {
+	display: flex;
+	gap: 20px;
+}
+
+.borrowing-stats {
+	width: 100%;
+	margin-top: 10px;
+	padding: 22px 33px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	box-shadow: 0px 5px 20px -15px rgba(0, 0, 0, 0.75);
+	border-radius: 10px;
+	background-color: #cfe2ff;
+	color: #084298;
+	transition: 0.5s;
+}
+
+.borrowing-stats:hover {
+	transform: scale(0.9);
+	transition: 0.5s;
+}
+
+.lending-stats {
+	width: 100%;
+	margin-top: 10px;
+	padding: 22px 33px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	box-shadow: 0px 5px 20px -15px rgba(0, 0, 0, 0.75);
+	border-radius: 10px;
+	background-color: #d1e7dd;
+	color: #0f5132;
+	transition: 0.5s;
+}
+
+.lending-stats:hover {
+	transform: scale(0.9);
+	transition: 0.5s;
+}
+
+.borrowing-stats h5,
+.lending-stats h5 {
+	margin-bottom: auto;
+	text-align: center;
+	font-size: 18px;
+}
+
+.borrowing-stats p,
+.lending-stats p {
+	margin: 5px 0;
+	font-size: 16px;
+}
